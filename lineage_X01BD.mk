@@ -24,7 +24,6 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Gapps Config
 WITH_GMS := false
-RISING_PACKAGE_TYPE := "VANILLA_AOSP"
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_X01BD
