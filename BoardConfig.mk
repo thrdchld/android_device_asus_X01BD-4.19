@@ -30,6 +30,3 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Inherit the proprietary files
 include vendor/asus/X01BD/BoardConfigVendor.mk
-
-# Sign the rom
-include vendor/lineage-priv/keys/keys.mk
