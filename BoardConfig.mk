@@ -30,3 +30,6 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Inherit the proprietary files
 include vendor/asus/X01BD/BoardConfigVendor.mk
+
+# fix duplicate line
+BUILD_BROKEN_DUP_RULES := true
