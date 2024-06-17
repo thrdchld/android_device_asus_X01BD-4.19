@@ -33,3 +33,6 @@ include vendor/asus/X01BD/BoardConfigVendor.mk
 
 # fix duplicate line
 BUILD_BROKEN_DUP_RULES := true
+
+# Only needed for signing
+BOARD_AVB_ENABLE := false
