@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_bitra.mk
+    $(LOCAL_DIR)/yaap_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
     yaap_X01BD-user \
