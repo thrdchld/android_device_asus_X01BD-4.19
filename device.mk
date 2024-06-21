@@ -40,3 +40,13 @@ PRODUCT_PACKAGES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/asus/X01BD/X01BD-vendor.mk)
+
+# Get Qcom components
+TARGET_EXCLUDE_QCOM_SEPOLICY := true
+TARGET_BOARD_PLATFORM := msmnile
+TARGET_COMMON_QTI_COMPONENTS := \
+    adreno \
+    media \
+    av
+
+TARGET_PROVIDES_POWERHAL := true
