@@ -5,7 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_X01BD.mk
+    $(LOCAL_DIR)/yaap_bitra.mk
 
 COMMON_LUNCH_CHOICES := \
-    yaap_X01BD-userdebug
+    yaap_X01BD-user \
+    yaap_X01BD-userdebug \
+    yaap_X01BD-eng
